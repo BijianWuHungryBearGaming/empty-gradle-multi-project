@@ -28,3 +28,11 @@ application {
     // Define the main class for the application.
     mainClass = 'empty.gradle.multi.project.App2'
 }
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'empty.gradle.multi.project.App2'
+        )
+    }
+}
