@@ -9,3 +9,4 @@
 
 rootProject.name = 'empty-gradle-multi-project'
 include('app')
+include('app2')
